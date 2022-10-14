@@ -1,0 +1,144 @@
+.heading{
+    background: linear-gradient(to right ,red ,green , red ,rgb(255, 255, 1 ,1) ,rgb(255, 255, 10, 0.5));
+    text-align: center;
+    color: #424242;
+    text-decoration: underline;
+}
+.heading-menu {
+    list-style-type: disc;
+    border: 5px solid tomato;
+    border-radius: 20px;
+    background-color: cyan;
+    margin-bottom: 15px;
+}
+#menu-list {
+    text-align: center;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* lorem div part  */
+.lorem-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid green;
+    border-radius: 20px;
+    background-color: #4befef;
+    padding-bottom: 2px;
+}
+.lorem-boxes {
+    width: 28%;
+    border: 3px solid tomato;
+    border-radius: 20px;
+    background-color: #02bcbc;
+    font-weight: bold;
+    text-align: center;
+    color: #010120;
+    opacity: 0.9;
+}
+
+/* div for jee advance */
+#jee-box {
+    background: linear-gradient(to right,red,yellow,red);
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.rank-box {
+    background: radial-gradient(blue, #8b63b1 ,red);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.rank-boxes {
+    background-color: yellowgreen;
+    color: darkred;
+    font-weight: bold;
+    text-decoration: underline;
+    border: 2px solid red;
+    border-radius: 15px;
+    width: 180px;
+    height: 120px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* grid-contents */
+
+.grid-container {
+    width: 100%;
+    display: grid;
+    /* grid-template-rows: 28% 28% 28% 16%; */
+    gap: 10px;
+    background-color: wheat;
+    border: 1px solid blueviolet;
+}
+.grid-item1 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    height: 50px;
+    background-color: #882727;
+    grid-column: 1 / 17;
+    grid-row: 1;
+
+}
+.grid-item2{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    height: 100px;
+    background-color: hotpink;
+    grid-column: 1/ 6;
+    grid-row: 2;
+}
+.grid-item3{
+    font-size: 30px;
+    color: white;
+    height: 100px;
+    background-color: blueviolet;
+    grid-column: 6/ 11;
+    grid-row: 2;
+}
+.grid-item4{
+    font-size: 24px;
+    color: white;
+    height: 100px;
+    background-color: darkblue;
+    grid-column: 11 / 16;
+    grid-row: 2;
+}
+.grid-item5 {
+    font-size: 18;
+    color: white;
+    background-color: #010120;
+    grid-column: 16 / 17;
+    grid-row: 2 / 4;
+}
+.grid-item6 {
+    font-size: 30px;
+    color: white;
+    height: 200px;
+    background-color: yellowgreen;
+    grid-column: 1 / 16;
+    grid-row: 3;
+}
+.grid-item7 {
+    text-align: center;
+    font-size: 28px;
+    color: black;
+    opacity: 0.8;
+    height: 30px;
+    background-color: #71c7e3;
+    grid-column: 1 / 17;
+    grid-row: 4;
+}
+li {
+    list-style-type: decimal;
+}
